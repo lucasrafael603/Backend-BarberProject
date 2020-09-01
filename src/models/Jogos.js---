@@ -1,0 +1,33 @@
+import {uuid} from 'uuidv4'
+import { de } from 'date-fns/locale'
+
+
+class Jogos{
+
+  id: string
+
+  nickGame: string
+
+  category: string
+
+  year: number
+
+
+  value: number
+
+
+
+  constructor({nickGame, category, year, value} : Omit<Jogos , 'id'> ) { // Define o tipo das variaveis do tipo da classes jogos, porem esta retirando o tipo id do construct
+
+    this.id = uuid()
+    this.nickGame = nickGame
+    this.category = category
+    this.year = year
+    this.value = value
+  }
+
+
+}
+
+
+export default Jogos
