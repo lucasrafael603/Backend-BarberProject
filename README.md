@@ -1,4 +1,4 @@
-# Projeto de um Sistema de barbearia
+# Projeto de Sistema de Barbearia
 
 ## Descrições de Tecnologias utilizadas
 
